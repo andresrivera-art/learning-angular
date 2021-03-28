@@ -1,0 +1,15 @@
+<h2>{{titulo}}</h2>
+<p>{{listado}}</p>
+
+<button (click)="ocultarvideojuegos(false)" *ngIf="mostrar_videojuegos">Ocultar</button>
+  
+<button (click)="ocultarvideojuegos(true)" *ngIf="!mostrar_videojuegos">Mostrar</button>
+
+
+<button (click)="cambiar_titulo()">Cambiar titulo</button>
+
+<ul>
+<li>GTA</li>
+<li>Prince of Persia</li>
+<li>Tekken</li>
+</ul>
